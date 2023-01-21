@@ -48,7 +48,7 @@ const Navbar = () => {
             gap="3rem"
             p="0.1rem 1.5rem"
           >
-            <InputBase placeHolder="Search..." />
+            <InputBase placeholder="Search..." />
             <IconButton>
               <Search />
             </IconButton>
