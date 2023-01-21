@@ -12,6 +12,10 @@ import generalRoutes from "./routes/general.js";
 import managementRoutes from "./routes/management.js";
 import salesRoutes from "./routes/sales.js";
 
+//import random mockaroo data
+import User from "./models/User.js";
+import { dataUser } from "./data/index.js";
+
 /*config */
 
 dotenv.config();
@@ -40,5 +44,7 @@ mongoose
   })
   .then(() => {
     app.listen(PORT, () => console.log(`Server Port location:${PORT}`));
+
+    //User.insertMany(dataUser);
   })
   .catch((error) => console.log(`${error}: Did not connect`));
