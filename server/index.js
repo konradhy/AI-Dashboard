@@ -12,9 +12,11 @@ import generalRoutes from "./routes/general.js";
 import managementRoutes from "./routes/management.js";
 import salesRoutes from "./routes/sales.js";
 
-//import random mockaroo data
+//import and insert random mockaroo data
 import User from "./models/User.js";
-import { dataUser } from "./data/index.js";
+import Product from "./models/Product.js";
+import ProductStat from "./models/ProductStat.js";
+import { dataUser, dataProduct, dataProductStat } from "./data/index.js";
 
 /*config */
 
@@ -46,5 +48,7 @@ mongoose
     app.listen(PORT, () => console.log(`Server Port location:${PORT}`));
 
     //User.insertMany(dataUser);
+    // Product.insertMany(dataProduct);
+    // ProductStat.insertMany(dataProductStat);
   })
   .catch((error) => console.log(`${error}: Did not connect`));
