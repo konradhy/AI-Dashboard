@@ -2269,7 +2269,7 @@ export const dataOverallStat = [
 export const dataProduct = [
   {
     _id: "63701d24f03239c72c00018e",
-    name: "Port Beckley",
+    name: "Tables",
     price: 311.71,
     description: "Revision of Nonaut Sub in Mouth/Throat, Via Opening",
     category: "clothing",
@@ -2278,7 +2278,7 @@ export const dataProduct = [
   },
   {
     _id: "63701d24f03239c72c00018f",
-    name: "Killy Fidian",
+    name: "Chairs",
     price: 649.77,
     description: "Removal of Drain Dev from L Metatarsophal Jt, Perc Approach",
     category: "accessories",
@@ -2287,7 +2287,7 @@ export const dataProduct = [
   },
   {
     _id: "63701d24f03239c72c000190",
-    name: "Federica Pieper",
+    name: "Computers",
     price: 576.06,
     description: "Replace of R Up Arm Tendon with Nonaut Sub, Open Approach",
     category: "clothing",
@@ -2296,7 +2296,7 @@ export const dataProduct = [
   },
   {
     _id: "63701d24f03239c72c000191",
-    name: "Solomon Ferrandez",
+    name: "Umbrella",
     price: 77.54,
     description: "Beam Radiation of Adrenal Glands using Electrons, Intraop",
     category: "misc",
@@ -2305,7 +2305,7 @@ export const dataProduct = [
   },
   {
     _id: "63701d24f03239867500012a",
-    name: "Filia Rusling",
+    name: "Fish",
     price: 293.64,
     description: "Division of Left Trunk Tendon, Open Approach",
     category: "accessories",
@@ -2314,7 +2314,7 @@ export const dataProduct = [
   },
   {
     _id: "63701d24f03239867500012b",
-    name: "Madeleine Mateescu",
+    name: "Candy",
     price: 361.14,
     description: "Destruction of Thoracic Duct, Percutaneous Approach",
     category: "shoes",
@@ -2323,7 +2323,7 @@ export const dataProduct = [
   },
   {
     _id: "63701d24f03239867500012c",
-    name: "Moyna Birkinshaw",
+    name: "Lightbulbs",
     price: 219.56,
     description: "Extirpation of Matter from R Fem Art, Open Approach",
     category: "shoes",
@@ -2332,7 +2332,7 @@ export const dataProduct = [
   },
   {
     _id: "63701d24f03239867500012d",
-    name: "Rosa Lemon",
+    name: "Honda Civics",
     price: 16.91,
     description: "Replace L Up Leg Subcu/Fascia w Nonaut Sub, Open",
     category: "accessories",
@@ -2341,7 +2341,7 @@ export const dataProduct = [
   },
   {
     _id: "63701d24f03239b7f7000015",
-    name: "Loleta Meach",
+    name: "Cards",
     price: 555.73,
     description: "Supplement Head & Neck Tendon with Autol Sub, Open Approach",
     category: "shoes",
@@ -2350,7 +2350,7 @@ export const dataProduct = [
   },
   {
     _id: "63701d24f03239b7f7000016",
-    name: "Cordelie Packe",
+    name: "Crocks",
     price: 269.45,
     description: "Stereotactic Other Photon Radiosurgery of Bronchus",
     category: "clothing",
@@ -2359,7 +2359,7 @@ export const dataProduct = [
   },
   {
     _id: "63701d24f03239b7f7000017",
-    name: "Norene Swiggs",
+    name: "Gold Chains",
     price: 642.61,
     description: "Revision of Nonaut Sub in Low Bursa/Lig, Open Approach",
     category: "misc",
@@ -2368,7 +2368,7 @@ export const dataProduct = [
   },
   {
     _id: "63701d24f03239b7f7000018",
-    name: "Duane Docharty",
+    name: "Hand Sanitizer",
     price: 949.37,
     description: "Removal of Synth Sub from L Patella, Perc Endo Approach",
     category: "clothing",
@@ -2377,7 +2377,7 @@ export const dataProduct = [
   },
   {
     _id: "63701d24f0323944410002ec",
-    name: "Mirabella Doucette",
+    name: "Black Coats",
     price: 11.7,
     description: "Destruction of Anus, External Approach",
     category: "accessories",
@@ -2386,7 +2386,7 @@ export const dataProduct = [
   },
   {
     _id: "63701d24f0323944410002ed",
-    name: "Hoebart Isted",
+    name: "Dessert Clarkes",
     price: 380.01,
     description: "Drainage of Left Inguinal Region, Perc Endo Approach",
     category: "shoes",
@@ -2395,7 +2395,7 @@ export const dataProduct = [
   },
   {
     _id: "63701d24f0323944410002ee",
-    name: "Dayna Maruska",
+    name: "Televisions",
     price: 670.71,
     description: "Low Dose Rate (LDR) Brachytherapy of Lung using Iodine 125",
     category: "clothing",
@@ -2404,7 +2404,7 @@ export const dataProduct = [
   },
   {
     _id: "63701d24f0323944410002ef",
-    name: "Horacio Lippitt",
+    name: "Microwaves",
     price: 690.23,
     description: "Fusion of Right Wrist Joint with Int Fix, Perc Approach",
     category: "accessories",
@@ -2413,7 +2413,7 @@ export const dataProduct = [
   },
   {
     _id: "63701d24f03239d81e000015",
-    name: "Elnore Knoton",
+    name: "Headphones",
     price: 104.24,
     description: "Division of Right Hand Muscle, Perc Endo Approach",
     category: "clothing",
@@ -2422,7 +2422,7 @@ export const dataProduct = [
   },
   {
     _id: "63701d24f03239d81e000016",
-    name: "Charisse Shakespeare",
+    name: "Bookshelves",
     price: 132.95,
     description: "Drainage of Left Radial Artery, Open Approach",
     category: "misc",
@@ -2431,7 +2431,7 @@ export const dataProduct = [
   },
   {
     _id: "63701d24f03239d81e000017",
-    name: "Pablo Sharrock",
+    name: "Jumping Jacks",
     price: 459.23,
     description: "Revision of Other Device in GI Tract, Perc Approach",
     category: "shoes",
@@ -2440,7 +2440,7 @@ export const dataProduct = [
   },
   {
     _id: "63701d24f03239d81e000018",
-    name: "Rollo Prendergrast",
+    name: "Arizona Soda",
     price: 629.2,
     description: "Drainage of Urethra with Drainage Device, Endo",
     category: "accessories",
@@ -2449,7 +2449,7 @@ export const dataProduct = [
   },
   {
     _id: "63701d24f032390a34000327",
-    name: "Elle Chart",
+    name: "Donuts",
     price: 530.86,
     description: "Occlusion of Right Axillary Vein, Perc Endo Approach",
     category: "shoes",
@@ -2458,7 +2458,7 @@ export const dataProduct = [
   },
   {
     _id: "63701d24f032390a34000328",
-    name: "Letti Garnam",
+    name: "Grey Goose",
     price: 934.46,
     description: "Bypass Ileum to Descending Colon, Endo",
     category: "accessories",
@@ -2467,7 +2467,7 @@ export const dataProduct = [
   },
   {
     _id: "63701d24f032390a34000329",
-    name: "Micheil Roumier",
+    name: "Pandora Charms",
     price: 867.33,
     description: "Destruction of Left Toe Phalangeal Joint, Open Approach",
     category: "misc",
@@ -2476,7 +2476,7 @@ export const dataProduct = [
   },
   {
     _id: "63701d24f032390a3400032a",
-    name: "Elli Hyde-Chambers",
+    name: "Carebear Tears",
     price: 22.98,
     description: "Revision of Extraluminal Device in Low Intest Tract, Endo",
     category: "misc",
@@ -2485,7 +2485,7 @@ export const dataProduct = [
   },
   {
     _id: "63701d24f032395b3300012a",
-    name: "Jessie Marioneau",
+    name: "Exercise Shorts",
     price: 607.7,
     description: "Reposition Right Peroneal Artery, Percutaneous Approach",
     category: "shoes",
@@ -2494,7 +2494,7 @@ export const dataProduct = [
   },
   {
     _id: "63701d24f032395b3300012b",
-    name: "Oriana Blofeld",
+    name: "Steering wheel",
     price: 988.4,
     description: "Release Left Thorax Muscle, Percutaneous Endoscopic Approach",
     category: "clothing",
@@ -2503,7 +2503,7 @@ export const dataProduct = [
   },
   {
     _id: "63701d24f032395b3300012c",
-    name: "Barnie Divill",
+    name: "Fridge and Freezer set",
     price: 786.02,
     description: "Excision of Right Foot Muscle, Percutaneous Approach",
     category: "shoes",
@@ -2512,7 +2512,7 @@ export const dataProduct = [
   },
   {
     _id: "63701d24f032395b3300012d",
-    name: "Tomasina Faithfull",
+    name: "Toothbrush",
     price: 211.21,
     description: "Supplement Left Foot Tendon with Autol Sub, Open Approach",
     category: "accessories",
@@ -2521,7 +2521,7 @@ export const dataProduct = [
   },
   {
     _id: "63701d25f03239d591000327",
-    name: "Pollyanna Pilmer",
+    name: "Helmet",
     price: 247.93,
     description: "Immobilization of Right Foot using Cast",
     category: "clothing",
@@ -2530,7 +2530,7 @@ export const dataProduct = [
   },
   {
     _id: "63701d25f03239d591000328",
-    name: "Israel Chason",
+    name: "Toolkit Hammer",
     price: 342.56,
     description: "Transfuse Autol Hemat Stem Cell in Central Art, Perc",
     category: "clothing",
