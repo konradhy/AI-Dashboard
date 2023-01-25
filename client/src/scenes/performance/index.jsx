@@ -1,13 +1,15 @@
 import React from "react";
 import { Box, useTheme } from "@mui/material";
-import { useGetCustomersQuery } from "state/api";
-import Header from "components/Header";
+import { useGetUserPerformanceQuery } from "state/api";
 import { DataGrid } from "@mui/x-data-grid";
+import Header from "components/Header";
+import CustomColumnMenu from "components/DataGridCustomColumnMenu";
+import { useSelector } from "react-redux";
 
-const Customers = () => {
+const Performance = () => {
   const theme = useTheme();
-  const { data, isLoading } = useGetCustomersQuery();
-
+  const userId = useSelector((state) => state.global.userId);
+  const { data, isLoading } = useGetUserPerformanceQuery(userId);
   const columns = [
     {
       field: "_id",
@@ -15,43 +17,35 @@ const Customers = () => {
       flex: 1,
     },
     {
-      field: "name",
-      headerName: "Name",
-      flex: 0.5,
-    },
-    {
-      field: "email",
-      headerName: "Email",
+      field: "userId",
+      headerName: "User Id",
       flex: 1,
     },
     {
-      field: "phoneNumber",
-      headerName: "Phone Number",
-      flex: 0.5,
-      renderCell: (params) => {
-        return params.value.replace(/^(\d{3})(\d{3})(\d{4})/, "($1)$2-$3");
-      },
-    },
-    {
-      field: "country",
-      headerName: "Country",
-      flex: 0.4,
-    },
-    {
-      field: "occupation",
-      headerName: "Occupation",
+      field: "createdAt",
+      headerName: "CreatedAt",
       flex: 1,
     },
     {
-      field: "role",
-      headerName: "Role",
+      field: "products",
+      headerName: "# of products",
       flex: 0.5,
+      sortable: false,
+      renderCell: (params) => params.value.length,
+    },
+    {
+      field: "cost",
+      headerName: "Cost",
+      flex: 1,
+      renderCell: (params) => `$${Number(params.value).toFixed(2)}`,
     },
   ];
 
+  console.log(data);
+
   return (
     <Box m="1.5rem 2.5rem">
-      <Header title="USERS" subtitle={"List of all non-admin users"}></Header>
+      <Header title="Performance" subtitle={"Your Affiliate Sales"}></Header>
       <Box
         mt="40px"
         height="75vh"
@@ -83,12 +77,14 @@ const Customers = () => {
         <DataGrid
           loading={isLoading || !data}
           getRowId={(row) => row._id}
-          rows={data || []}
+          rows={(data && data.sales) || []}
           columns={columns}
+          components={{
+            ColumnMenu: CustomColumnMenu,
+          }}
         />
       </Box>
     </Box>
   );
 };
-
-export default Customers;
+export default Performance;
