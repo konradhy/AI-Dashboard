@@ -12,6 +12,7 @@ export const api = createApi({
     "Sales",
     "Admins",
     "Performance",
+    "Dashboard",
   ],
   endpoints: (build) => ({
     getUser: build.query({
@@ -50,6 +51,10 @@ export const api = createApi({
       query: (id) => `management/performance/${id}`,
       providesTags: ["Performance"],
     }),
+    getDashboard: build.query({
+      query: (id) => `general/dashboard`,
+      providesTags: ["Dashboard"],
+    }),
   }),
 });
 //API for the redux toolkit query
@@ -63,4 +68,5 @@ export const {
   useGetSalesQuery,
   useGetAdminsQuery,
   useGetUserPerformanceQuery,
+  useGetDashboardQuery,
 } = api;
