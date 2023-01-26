@@ -28,11 +28,10 @@ import {
   TrendingUpOutlined,
   PieChartOutlined,
 } from "@mui/icons-material";
-
 import { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import FlexBetween from "./FlexBetween";
-import profileImage from "../assets/profile.png";
+import profileImage from "assets/profile.png";
 
 const navItems = [
   {
@@ -93,7 +92,6 @@ const navItems = [
   },
 ];
 
-//sidebar properties passed in from layout
 const Sidebar = ({
   user,
   drawerWidth,
@@ -134,7 +132,7 @@ const Sidebar = ({
               <FlexBetween color={theme.palette.secondary.main}>
                 <Box display="flex" alignItems="center" gap="0.5rem">
                   <Typography variant="h4" fontWeight="bold">
-                    AI Metrics
+                    ECOMVISION
                   </Typography>
                 </Box>
                 {!isNonMobile && (
@@ -205,7 +203,7 @@ const Sidebar = ({
                 height="40px"
                 width="40px"
                 borderRadius="50%"
-                sx={{ objectFit: "cover" }}
+                sx={{ objectFit: "crop" }}
               />
               <Box textAlign="left">
                 <Typography
