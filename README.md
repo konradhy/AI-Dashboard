@@ -4,9 +4,7 @@ Welcome to the AI-Dashboard repository. This is a dashboard built with Material-
 
 Demo: https://ai-dashboard-frontend.onrender.com/ - (Project is hosted on render's free tier, give it a moment to call the server)
 
-## Author
 
-Konrad Hylton
 
 ## Project Structure
 
@@ -37,9 +35,7 @@ The client-side tools and frameworks used in this project include:
 - reduxjs/toolkit redux: a set of utilities that helps writing Redux logic with less boilerplate
 - react-router-dom: a collection of navigational components that compose declaratively with your application
 
-## Contributing
 
-If you would like to contribute to this project, please send an email to hey@konradhylton.com
 
 ## Deployment instructions
 
