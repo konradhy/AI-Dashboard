@@ -2,7 +2,7 @@
 
 Welcome to the AI-Dashboard repository. This is a dashboard built with Material-UI that connects to a MongoDB database and displays various data visualizations, including graphs, maps, charts, and grids.
 
-Demo: https://ai-dashboard-frontend.onrender.com/ - (Project is hosted on render's free tier, give it a moment to call the server)
+
 
 
 
